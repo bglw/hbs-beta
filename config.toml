@@ -2,6 +2,18 @@ baseURL = "http://example.org/"
 languageCode = "en-us"
 title = "Hugo Bookshop Starter"
 _enabled_editors = ["visual", "content"]
+defaultContentLanguage = "en"
+defaultContentLanguageInSubdir = true
+
+[languages]
+[languages.ar]
+languagedirection = 'rtl'
+title = 'مدونتي'
+weight = 2
+[languages.en]
+title = 'My blog'
+weight = 1
+
 
 [module]
 replacements = "local/component-library -> ../component-library"
