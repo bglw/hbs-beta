@@ -2,8 +2,8 @@ baseURL = "http://example.org/"
 languageCode = "en-us"
 title = "Hugo Bookshop Starter"
 _enabled_editors = ["visual", "content"]
-defaultContentLanguage = "en"
-defaultContentLanguageInSubdir = true
+# defaultContentLanguage = "en"
+# defaultContentLanguageInSubdir = true
 
 [languages]
 [languages.ar]
