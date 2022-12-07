@@ -17,6 +17,15 @@
 
 <body>
     <main>
+      
+
+        {{ partial "bookshop_bindings" `.Params.content_blocks` }}
+        {{ "<!--bookshop-live name(page)-->" | safeHTML }}
+        <h2>Hey ho</h2>
+        {{ "<!--bookshop-live end-->" | safeHTML }}
+        
+        <h1>Break</h1>
+
         <!-- Loop through any structures in the front-matter and render them -->
         {{ partial "bookshop_bindings" `.Params.content_blocks` }}
         {{ partial "bookshop_partial" (slice "page" .Params.content_blocks) }}
