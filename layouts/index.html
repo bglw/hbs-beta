@@ -1,9 +1,9 @@
 {{ define "main" }}
 
 {{ partial "bookshop_bindings" `(dict "content_html" .Params.note_html "type" "note")` }}
-{{ (printf "<!--bookshop-live name(page)-->" .) | safeHTML }}
+{{ "<!--bookshop-live name(page)-->" | safeHTML }}
 <h2>Hey ho</h2>
-{{ (printf "<!--bookshop-live end-->" .) | safeHTML }}
+{{ "<!--bookshop-live end-->" | safeHTML }}
 
 <h1>Break</h1>
 
